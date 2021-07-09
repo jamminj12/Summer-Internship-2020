@@ -1,4 +1,4 @@
-# Sample Tableau SQL query used for a custom dashboard
+# Sample Tableau SQL query used for a calculated field on a custom dashboard
 
 IF datediff('day',[NdcStartDate],TODAY())<=30
 THEN "0-30 days"
